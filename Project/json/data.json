@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "good day",
+        "what's up?"
+      ],
+      "responses": [
+        "Hello",
+        "Hey!",
+        "What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "Have a good day"
+      ],
+      "responses": [
+        "Sad to see you go",
+        "Talk to you later",
+        "Goodbye"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old",
+        "What is your age",
+        "How old are you",
+        "Age??"
+      ],
+      "responses": [
+        "My owner Ahmed is 18 years old!",
+        "18 years!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "What should I call you?",
+        "whats your name",
+        "Who are you?"
+      ],
+      "responses": [
+        "You can call me Neural!",
+        "I'm Neural!",
+        "I'm Neural, the assistant of Ahmed!"
+      ]
+    }
+  ]
+}
