@@ -15,7 +15,10 @@
         "hey there",
         "hi there",
         "ciao",
-        "hey neural"
+        "hey neural",
+        "morning",
+        "evening",
+        "greetings"
       ],
       "responses": [
         "Hello!",
@@ -37,7 +40,10 @@
         "I'm leaving",
         "see ya",
         "bye bye",
-        "gotta go"
+        "gotta go",
+        "farewell",
+        "take care",
+        "later"
       ],
       "responses": [
         "Sad to see you go",
@@ -59,9 +65,9 @@
         "are you old?"
       ],
       "responses": [
-        "My owner Ahmed is 18 years old!",
-        "I'm ageless, but Ahmed is 18!",
-        "18 years — that's Ahmed’s age!"
+        "I'm ageless, but my owner is 18!",
+        "18 years — that's my owner's age!",
+        "I exist outside of time!"
       ]
     },
     {
@@ -78,8 +84,83 @@
       "responses": [
         "You can call me Neural!",
         "I'm Neural!",
-        "I'm Neural, Ahmed’s assistant!",
+        "I'm Neural, your assistant!",
         "My name is Neural — nice to meet you!"
+      ]
+    },
+    {
+      "tag": "courtesy",
+      "patterns": [
+        "nice to meet you",
+        "pleasure to meet you",
+        "glad to meet you",
+        "thank you",
+        "thanks",
+        "thx",
+        "much appreciated"
+      ],
+      "responses": [
+        "The pleasure is mine!",
+        "Happy to meet you too!",
+        "You're welcome!",
+        "Always happy to help!"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "I am *",
+        "my name is *",
+        "I'm *"
+      ],
+      "responses": [
+        "Nice to meet you!",
+        "Hello! It's great to know you.",
+        "Pleased to meet you!"
+      ]
+    },
+    {
+      "tag": "howareyou",
+      "patterns": [
+        "how are you?",
+        "how are you doing?",
+        "what's up?",
+        "how is it going?",
+        "how do you feel?"
+      ],
+      "responses": [
+        "I'm doing well, thank you!",
+        "I'm fine! How about you?",
+        "All systems go!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "funny",
+        "joke"
+      ],
+      "responses": [
+        "Why did the computer show up at work late? It had a hard drive!",
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "I would tell you a UDP joke, but you might not get it."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help me",
+        "I need help",
+        "can you help me?",
+        "assist me",
+        "support"
+      ],
+      "responses": [
+        "Sure! What do you need help with?",
+        "I'm here to assist you, tell me your question.",
+        "Absolutely, how can I support you?"
       ]
     },
     {
@@ -88,7 +169,8 @@
       "responses": [
         "I'm not sure I understand... could you rephrase?",
         "Hmm, I didn't get that. Try saying it differently!",
-        "I'm still learning... can you ask it another way?"
+        "I'm still learning... can you ask it another way?",
+        "Sorry, I don't have an answer for that yet."
       ]
     }
   ]
